@@ -1,7 +1,9 @@
 .box{
-    width: 90%;
-    height: 65%;
+    width: 80%;
     margin: 0 auto;
+}
+.top{    
+    height: 60vh;
     display: flex;
     justify-content: start;
     align-items: flex-start;
@@ -9,6 +11,7 @@
 .left{
     width: 45%;
     color: #9A5EFB;
+    font-size: 18px;
 }
 .btn-show{
     width: 250px;
@@ -25,11 +28,83 @@
 .right .img{
     width: 400px;
     height: 300px;
+    margin-top: 70px;
     background-image: url("/public/undraw.svg");
     background-size: cover;
 }
 .right{
     width: 50%;
+    height: 70%;
     display: flex;
     justify-content: center;
+}
+
+
+/*Section service*/
+.srv{
+    width: 100%;
+    justify-content: space-around;
+}
+.serv-txt{
+    width: 100%;
+}
+
+.tech{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.tech .it-tech{
+    width: 100px;
+    height: 100px;
+    margin: 15px 15px 0 0;
+    background: #9A5EFB;
+}
+
+.card{
+    border-radius: 10px;
+    border: 1px solid #9A5EFB;
+    color: #9A5EFB;
+    width: 250px;
+    height: max-content;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 12px 12px 2px 1px rgba(114, 114, 114, 0.103);
+}
+.card li{
+    list-style: none;
+    margin: 0;
+}
+.card .ul{
+    padding: 0;
+}
+
+.profil{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #9A5EFB;
+    margin: 5px auto;
+    opacity: 0.5;
+}
+/*PROJECT SECTION*/
+.prj{
+    width: 100%;
+    color: #9A5EFB;
+    text-align: center;
+    display: block;
+}
+.prj-box{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.prj-it{
+    width: 250px;
+    height: 170px;
+    background: #9A5EFB;
+    margin: 0 10px 10px 0;
 }

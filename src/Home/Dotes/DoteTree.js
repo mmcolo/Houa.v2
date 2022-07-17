@@ -1,8 +1,25 @@
+import Dote from "../../Dote/Dote";
 
-const DoteTree = () =>{
+const DoteTree = (props) =>{
     return(
-        <div className='dote3'>
-            <h1>Dote 3</h1>
+        <div className='box'>
+            <div className="top ">
+                <div className="left prj">
+                    <h1>Projets</h1>
+                    <div className="prj-box">
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                        <div className="prj-it"></div>
+                    </div>
+                </div>
+            </div>
+
+            <Dote active={props.active}/>
         </div>
     )
 }
