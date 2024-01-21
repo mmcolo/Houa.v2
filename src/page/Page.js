@@ -24,7 +24,7 @@ const Page = () =>{
                     <Route path="/home/DoteTwo" element={<DoteTwo active={1}/>}/>
                     <Route path="/home/DoteTree" element={<DoteTree active={2}/>}/>
                 </Route>
-                <Route path="/dev-blog" element={<Blog/>}/>
+                <Route path="/about" element={<Blog/>}/>
                 <Route path="/contact" element={<Contact/>}/>
             </Routes>
         </Router>

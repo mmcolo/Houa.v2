@@ -10,18 +10,28 @@ const DoteTwo = (props) =>{
                     <h1>Services</h1>
                     <p className="serv-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className="tech">
-                        <div className="it-tech"></div>
-                        <div className="it-tech"></div>
-                        <div className="it-tech"></div>
-                        <div className="it-tech"></div>
-                        <div className="it-tech"></div>
+                        <div className="it-tech">
+                            <img src="https://via.placeholder.com/300"/>
+                        </div>
+                        <div className="it-tech">
+                            <img src="https://via.placeholder.com/300"/>
+                        </div>
+                        <div className="it-tech">
+                            <img src="https://via.placeholder.com/300"/>
+                        </div>
+                        <div className="it-tech">
+                            <img src="https://via.placeholder.com/300"/>
+                        </div>
+                        <div className="it-tech">
+                            <img src="https://via.placeholder.com/300"/>
+                        </div>
                     </div>
                 </div>
                 <div className='right srv'>
                     <div className="card">
                         <h3>Dev</h3>
                         <p>Je developpe vorte application web de bout en bout. A fin de facilité vorte activité et vous créer un identité numerique qui vous coresponds </p>
-                        <div className="profil"></div>
+                        <img src="https://via.placeholder.com/80" className="profil"/>
                         <ul className="ul">
                             <li>Site vitrine</li>
                             <li>Application web</li>
@@ -30,7 +40,7 @@ const DoteTwo = (props) =>{
                     <div className="card">
                         <h3>Design</h3>
                         <p>Je popose des services de conception graphique personnalise. Pour les different élément listé ci-dessous: </p>
-                        <div className="profil"></div>
+                        <img src="https://via.placeholder.com/80" className="profil"/>
                         <ul className="ul">
                             <li>Carde de visite</li>
                             <li>Affiche événementielles</li>

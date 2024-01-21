@@ -5,3 +5,44 @@
     border-radius: 45px;    
     background: white;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+}::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 5px;
+}::-webkit-scrollbar-thumb{
+    background: #d5bbff;
+    border-radius: 5px;
+}::-webkit-scrollbar-thumb:hover{
+    background: #9A5EFB;
+}
+
+.section-about{
+    width: 90%;
+    height: 85%;
+    overflow-y: scroll;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.section-about *{
+    color: grey;
+    margin-right: 50px;
+}
+.section-about h3{
+    color: #9A5EFB;
+    animation-name: getBlush;
+    animation-duration: 1s;
+}
+
+@keyframes getBlush{
+    from{
+        margin-top: 20%;
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+        margin-top: none;
+    }
+}

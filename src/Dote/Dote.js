@@ -2,9 +2,9 @@ import './Dote.css';
 import { Link} from 'react-router-dom';
 
 const Dote = (props) =>{
-    let menu = [0,1,2 ]
+    //Ajout de la classe active dans la Point de navigation au centre en bas de la page.
     const updating = (index) =>{
-        if(index == props.active){
+        if(index === props.active){
             return "active"
         }
         else{

@@ -10,8 +10,8 @@ const NavBar = (props) =>{
         },
         {
             id:1,
-            title: "Dev-blog",
-            link: "/dev-blog"
+            title: "Apropos",
+            link: "/about"
         },
         {
             id:2,
@@ -22,7 +22,7 @@ const NavBar = (props) =>{
     let active ="active";
     
     const activeLink=(index)=>{
-        if(props.active==index){
+        if(props.active===index){
             return active;
         }else{
             return "";
